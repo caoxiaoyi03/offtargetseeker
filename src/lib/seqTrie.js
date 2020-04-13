@@ -1,10 +1,25 @@
 /**
+ * @license
+ * Copyright 2020 Xiaoyi Cao
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ *
  * @typedef {import('./sequence')} Sequence
  *
- * Basic Trie function with a limited dictionary and a given length,
- * supporting CRD, looking for the immediate next element,
- * looking for the immediate available next element,
- * looking whether the branch is saturated.
+ * @class
+ * Basic Trie function with a limited dictionary and a given length, supporting
+ * CRD, looking for the immediate next element, looking for the immediate
+ * available next element, looking whether the branch is saturated.
  *
  * @param {number} [length] a length used to calculate saturation
  * @param {boolean} [needsOccurence] whether the number of occurence is needed
